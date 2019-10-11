@@ -9,7 +9,7 @@ var connection = mysql.createConnection({
 connection.connect();
 
 let sql = "select Nome, CPF from cliente ";
-connection.query(sql, function(erro, results, fields){
+connection.query(sql, function(error, results, fields){
     results.forEach( function(element){
         console.log('Name: %s - CPF: %s', element.Nome, element.CPF);
     });
