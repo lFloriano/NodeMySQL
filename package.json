@@ -1,0 +1,19 @@
+{
+  "name": "mysql-app",
+  "version": "1.0.0",
+  "description": "webservice using mysql database",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webservice",
+    "mysql",
+    "node"
+  ],
+  "author": "lFloriano",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.17.1"
+  }
+}
